@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{   int A,B,C,max;
+    scanf("%d%d%d",&A,&B,&C);
+    max=A;
+ if(A<B||A<C){
+     if(B<C){ max=C;
+ }else{
+     max=B;}
+ }
+     printf("%d eh o maior",max);
+    return 0;
+}
